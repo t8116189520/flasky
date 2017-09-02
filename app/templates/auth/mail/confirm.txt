@@ -1,0 +1,3 @@
+Hello,{{user.username}}
+To confirm your account,click:
+{{url_for('auth.confirm',token=token,_external=True)}}
